@@ -1,0 +1,24 @@
+h1 {
+    font-family: Arial;
+    font-size: 43px;
+  }
+  
+  #makeListScreen {
+    width: 520px;
+    height: 280px;
+    background-image: linear-gradient(to right, red , yellow);
+  }
+
+  #transformedListScreen {
+    width: 520px;
+    height: 280px;
+    font-family: Arial;
+    font-size: 63px;
+    background-image: linear-gradient(to left, red , yellow);
+  }
+
+  li {
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+  }
