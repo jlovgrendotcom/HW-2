@@ -1,24 +1,24 @@
-h1 {
-    font-family: Arial;
-    font-size: 43px;
-  }
+body {
+  margin: 50px;
+  font-family: Helvetica, sans-serif;
+  font-size: 150%;
+}
   
-  #makeListScreen {
+  #grad1 {
     width: 520px;
     height: 280px;
     background-image: linear-gradient(to right, red , yellow);
   }
 
-  #transformedListScreen {
+  #grad2 {
     width: 520px;
     height: 280px;
     font-family: Arial;
     font-size: 63px;
-    background-image: linear-gradient(to left, red , yellow);
+    background-image: linear-gradient(to right, rgb(17, 0, 255) , rgb(0, 255, 128));
   }
 
-  li {
-    color: black;
+  #ChangeWords {
     font-family: Arial;
-    font-size: 30px;
+    font-size: 100px;
   }

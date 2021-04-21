@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="wft=8">
     <title>Lovgren HW-2</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-
     <h1>Swap first and last letters</h1>
-
-    <button id="StartBtn" type="button" onclick="makeList()">Start</button>
-    <br></br>
-
-    <section id="makeListScreen">
-        <div id="myList">
+    <button id="start">Start</button>
+    <br>
+    <section id="GetWords">
+        <div id="grad1" class ="solid">
+            <br>
+            <ul id="list1"></ul>
+            <button id="changeWords">Change the words!</button>
         </div>
-        <br></br> 
-        <button id="changeWordsBtn" type="button" onclick="changeWords()">Change the words!</button>
     </section>
 
-    <section id="transformedListScreen">
-        <div id="newList">
+    <section id="ChangedWords">
+        <div id="grad2" class ="solid">
+            <ul id="list2"></ul>
         </div>
-        <button id="changeWordsBtn" type="button" onclick="changeWords()">Change the words!</button>
     </section>
 
-    <script type="text/javascript" src="index.js"></script> 
+    <script src="index.js"></script> 
 </body>
 </html>
